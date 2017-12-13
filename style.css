@@ -28,17 +28,15 @@ p1{
     font-family:"Oswald", "sans-serif";
 }
 
-p4 {
+.company {
     position:absolute;
     top:-30px;
     left: 45%;
     font-size:30px;
 }
 
-
-
-.fixed {
-    border: 1px bold: #FCDD44;
+.banner {
+    border: 5px #FFFD8B ;
     background-color: #6DF478;
     position: fixed; 
     bottom: 0; 
