@@ -17,22 +17,25 @@ h3{
 
 p1{
     text-align:center;
-    font-size: 40px;
+    font-size: 35px;
+    font-family:"Oswald", "sans-serif";
 }
 
-p3{
-    
+p2{
+   position: absolute
+   
 }
 
 .fixed {
-    border: 1px bold:#FCDD44;
+    border: 1px bold: #FCDD44;
     background-color: #6DF478;
     position: fixed; 
     bottom: 0; 
     right: 0;
     width: 20%;
-    height:10;
-    font-size:30;
-    padding:15px;
-    color:white;
+    height: 10;
+    font-size: 30;
+    padding: 15px;
+    color: white;
+    text-align: center;
 }
