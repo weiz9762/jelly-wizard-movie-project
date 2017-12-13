@@ -1,4 +1,6 @@
-
+body {
+    background:#FCDD44;
+}
     
 
 h1{
@@ -18,8 +20,8 @@ p1{
 }
 
 .fixed {
-    border: 1px sold:red;
-    background-color: #333;
+    border: 1px sold:#FCDD44;
+    background-color: #6DF478;
     position: fixed; 
     bottom: 0; 
     right: 0;
