@@ -25,7 +25,7 @@ p3{
 }
 
 .fixed {
-    border: 1px sold:#FCDD44;
+    border: 1px bold:#FCDD44;
     background-color: #6DF478;
     position: fixed; 
     bottom: 0; 
@@ -33,6 +33,6 @@ p3{
     width: 20%;
     height:10;
     font-size:30;
-    padding:5px;
+    padding:15px;
     color:white;
 }
