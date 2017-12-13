@@ -3,7 +3,11 @@ h1{
     font-family: "Frijole", "cursive";
     color: ;
   }
-  
+
+h3{
+    text-align:center;
+    font-family: "Oswald", "sans-serif";
+}
 p{
     text-align:center;
 }
