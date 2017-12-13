@@ -3,11 +3,18 @@ body {
 }
     
 
+.div {
+    position:relative;
+    display:block;
+    
+}
+
 h1{
     text-align: center;
     font-family: "Frijole", "cursive";
     font-size:80px;
     color: ;
+    position:relative;
   }
 
 h3{
@@ -20,8 +27,11 @@ p1{
     font-size: 40px;
 }
 
-p3{
-    
+p4 {
+    position:absolute;
+    top:0px;
+    left: 45%;
+    font-size:20px;
 }
 
 .fixed {
