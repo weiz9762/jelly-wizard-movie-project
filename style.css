@@ -30,9 +30,12 @@ p1{
 
 p4 {
     position:absolute;
-    top:0px;
+    top:-30px;
     left: 45%;
-    font-size:20px;
+    font-size:30px;
+}
+
+
 
 .fixed {
     border: 1px bold: #FCDD44;
