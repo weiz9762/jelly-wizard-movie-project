@@ -58,3 +58,9 @@ h3{
     color: white;
     text-align: center;
 }
+
+.wizard {
+    height: 30%;
+    width: 30%;
+    float:right;
+}
