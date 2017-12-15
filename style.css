@@ -24,18 +24,10 @@ h3{
     font-style: italic;
 }
 
-#info{
-    position: fixed;
-    bottom: 130px; 
-    right: -100px;
-    width: 30%;
-    height: 10;
-    font-size: 10px;
-    padding: 0px;
-    text-align:center;
-    font-size: 35px;
-    font-family:"Oswald", "sans-serif";
-    color:black;
+.info{
+    font-style: italic;
+    font-weight: bold;
+    font-size:25px;
 }
 
 .company {
@@ -50,11 +42,19 @@ h3{
     background-color: #6DF478;
     position: fixed; 
     bottom: 0; 
-    right: 0;
+    left: 0;
     width: 20%;
-    height: 10;
-    font-size: 30px;
+    height: 7%;
+    font-size: 20px;
     padding: 15px;
     color: white;
     text-align: center;
+}
+
+.wizard {
+    height: 30%;
+    width: 30%;
+    float: right;
+    position:relative;
+    bottom:100px;
 }
