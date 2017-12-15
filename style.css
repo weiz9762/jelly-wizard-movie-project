@@ -22,6 +22,9 @@ h3{ /*Slogan*/
     font-family: "Oswald", "sans-serif";
     font-size: 60px;
     font-style: italic;
+    position: aboslute;
+    display:block;
+    margin: 0 auto;
 }
 
 .info{ /*Green Box*/
@@ -58,6 +61,7 @@ p3{
     text-align: center;
 }
 
+<<<<<<< HEAD
 /*.wizard {*/
 /*    height: 30%;*/
 /*    width: 30%;*/
@@ -66,3 +70,12 @@ p3{
 /*    z-index:5;*/
 /*    bottom:100px;*/
 /*}*/
+=======
+.wizard {
+    height: 30%;
+    width: 30%;
+    float: right;
+    position:absolute;
+    bottom:100px;
+}
+>>>>>>> 5b8bf475174914b6cf79df955879991362e84adc
