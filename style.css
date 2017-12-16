@@ -16,7 +16,6 @@ h1{ /*Jelly Wizard*/
     font-size:8vw;
     color: ;
     position:relative;
-    
   }
 
 h3{ /*Slogan*/
@@ -43,6 +42,7 @@ p1{
    text-align: center;
    font-weight: bold;
 }
+
 .company { 
     position:absolute;
     top:-30px;
@@ -67,14 +67,23 @@ p1{
 .search {
     width:233px;
     margin:20% auto;
-
 }
-.search:hover {
+
+.links {
+    color:black;
+    font-weight: bold
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    margin-top:20%;
     
 }
+
+
 #search-bar {
     height: 20px;
 }
+
 #search-icon {
     height: 26px;
 }
