@@ -61,16 +61,7 @@ p3{
     text-align: center;
 }
 
-<<<<<<< HEAD
-/*.wizard {*/
-/*    height: 30%;*/
-/*    width: 30%;*/
-/*    float: right;*/
-/*    position:relative;*/
-/*    z-index:5;*/
-/*    bottom:100px;*/
-/*}*/
-=======
+
 .wizard {
     height: 30%;
     width: 30%;
@@ -78,4 +69,4 @@ p3{
     position:absolute;
     bottom:100px;
 }
->>>>>>> 5b8bf475174914b6cf79df955879991362e84adc
+
