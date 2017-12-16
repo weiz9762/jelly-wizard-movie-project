@@ -1,5 +1,6 @@
 body {
     background:#FFFD8B;
+    
 }
     
 
@@ -12,15 +13,16 @@ body {
 h1{ /*Jelly Wizard*/
     text-align: center;
     font-family: "Frijole", "cursive";
-    font-size:80px;
+    font-size:8vw;
     color: ;
     position:relative;
+    
   }
 
 h3{ /*Slogan*/
     text-align: center;
     font-family: "Oswald", "sans-serif";
-    font-size: 40px;
+    font-size: 4vw;
     font-style: italic;
     position: aboslute;
     display:block;
@@ -39,12 +41,13 @@ p3{
    display: block;
    font-size: 25px;
    text-align: center;
+   font-weight: bold;
 }
 .company { 
     position:absolute;
     top:-30px;
     left: 45%;
-    font-size:30px;
+    font-size:3.5vw;
 }
 
 .banner {
@@ -62,9 +65,10 @@ p3{
 }
 
 .wizard {
-    height: 30%;
-    width: 30%;
-    float: right;
-    position:absolute;
-    bottom:100px;
+    max-height: 60%;
+    max-width: 60%;
+    position: absolute;
+    top:40%;
+    right: 5%;
+    z-index: -5
 }
