@@ -1,13 +1,14 @@
 body {
-    background:#FFFD8B;
+    /*background:#FFFD8B;*/
     overflow-y: scroll;
 }
     
 
-.div {
+.title { /*first div*/
     position:relative;
     display:block;
-    
+    background-color:#FFFD8D;
+    padding:15px 0px;
 }
 
 h1{ /*Jelly Wizard*/
@@ -16,7 +17,40 @@ h1{ /*Jelly Wizard*/
     font-size:8vw;
     color: ;
     position:relative;
+    z-index: 10;
   }
+  
+.company { /*what disney*/
+    position:absolute;
+    top:-6px;
+    left: 45%;
+    font-size:4vw;
+    max-height: 100px;
+}
+
+.jl{/*red juggle bean*/
+    max-height: 70%;
+    max-width: 70%;
+    position:absolute;
+    top: 10%;
+    left:13%;
+}
+
+
+.wz{/*blue juggle bean*/
+    max-height: 70%;
+    max-width: 70%;
+    position:absolute;
+    top:30%;
+    right:13%;
+    
+}
+
+/*start of sec 2*/
+
+.summary {/*second div*/
+    background-color:#D7F5FD;
+}
 
 h3{ /*Slogan*/
     text-align: center;
@@ -38,17 +72,20 @@ p1{
    margin-left: auto;
    margin-right: auto;
    display: block;
-   font-size: 25px;
+   font-size: 2vw;
    text-align: center;
    font-weight: bold;
 }
 
-.company { 
-    position:absolute;
-    top:-30px;
-    left: 45%;
-    font-size:3.5vw;
+p2 {
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    display:block;
+    width:200px;
 }
+
+
 
 .banner {
     border: 5px #FFFD8B ;
@@ -89,11 +126,24 @@ p1{
     height: 26px;
 }
 
+
 .wizard {
     max-height: 60%;
     max-width: 60%;
     position: absolute;
-    top:40%;
-    right: 5%;
-    z-index: -5
+    top:90%;
+    right:10%;
+    z-index: -5;
+    float: right;
+}
+
+#header {
+  background-image: url(images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  padding-top: 28.56%;
+  display:block;
+  position:absolute;
+  margin:0 0 0 -6px;
 }
