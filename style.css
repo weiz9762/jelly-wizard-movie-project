@@ -84,8 +84,33 @@ p2 {
     width:200px;
 }
 
+/*sec 3*/
+.character {
+    background-color:#9DE1EF;
+    padding: 40px 0;
+}
+
+.wizard {
+    max-height: 30%;
+    max-width: 30%;
+    margin-left:10%;
+}
+
+.giraffe {
+    max-height: 20%;
+    max-width: 20%;
+    margin-bottom: 50%;
+    float: left;
+    
+}
+.dragon {
+    max-height: 30%;
+    max-width: 30%;
+    float: right;
+}
 
 
+/*sec 4*/
 .banner {
     border: 5px #FFFD8B ;
     background-color: #6DF478;
@@ -125,27 +150,6 @@ p2 {
     height: 26px;
 }
 
-
-.wizard {
-    max-height: 60%;
-    max-width: 60%;
-    position: absolute;
-    top:90%;
-    right:10%;
-    z-index: -5;
-    float: right;
-}
-
-#header {
-  background-image: url(images/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 100%;
-  padding-top: 28.56%;
-  display:block;
-  position:absolute;
-  margin:0 0 0 -6px;
-}
 
 #header {
   background-image: url(images/banner.jpg);
