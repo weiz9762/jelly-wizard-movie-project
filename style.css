@@ -82,9 +82,8 @@ p2 {
     margin-right: auto;
     display:block;
     width:200px;
+    font-family: "Risque", "cursive;
 }
-
-
 
 .banner {
     border: 5px #FFFD8B ;
@@ -100,7 +99,6 @@ p2 {
     text-align: center;
 }
 
-
 .search {
     width:233px;
     margin:20% auto;
@@ -115,7 +113,6 @@ p2 {
     margin-top:20%;
     
 }
-
 
 #search-bar {
     height: 20px;
