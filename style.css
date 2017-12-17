@@ -91,6 +91,11 @@ p2 {
     padding: 40px 0;
 }
 
+#character {
+    margin: 0 5%;
+    font-size: 5vw;
+}
+
 .wizard {
     max-height: 30%;
     max-width: 30%;
@@ -102,17 +107,34 @@ p2 {
     max-width: 20%;
     margin-bottom: 50%;
     float: left;
-    
-}
-.dragon {
-    max-height: 30%;
-    max-width: 30%;
-    float: right;
 }
 
-.vertical-text {
-	transform: rotate(90deg);
-	transform-origin: left top 0;
+.dragon {
+    max-height: 25%;
+    max-width: 25%;
+    float:right;
+}
+
+
+.left {
+    font-size:4vw;
+	display:inline-block;
+	margin-bottom: 30px;
+    margin-left: -15%;
+}
+
+.middle {
+    font-size:4vw;
+	display:inline-block;
+	margin-bottom: 30px;
+	margin-left:25%;
+}
+
+.right {
+    font-size:4vw;
+	display:inline-block;
+	margin-bottom: 30px;
+	margin-left:30%;
 }
 /*sec 4*/
 .banner {
@@ -129,10 +151,14 @@ p2 {
     text-align: center;
 }
 
-
+/*sec 5*/
+.bottom {
+    padding: 20px 0;
+    background-color:#b3b3ff;
+}
 .search {
     width:233px;
-    margin:20% auto;
+    margin:10% auto;
 }
 
 .links {
