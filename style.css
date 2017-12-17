@@ -15,7 +15,6 @@ h1{ /*Jelly Wizard*/
     text-align: center;
     font-family: "Frijole", "cursive";
     font-size:8vw;
-    color: ;
     position:relative;
     z-index: 10;
   }
@@ -23,7 +22,7 @@ h1{ /*Jelly Wizard*/
 .company { /*what disney*/
     position:absolute;
     top:-6px;
-    left: 45%;
+    left: 40%;
     font-size:4vw;
     max-height: 100px;
 }
@@ -146,7 +145,6 @@ p2 {
   display:block;
   position:absolute;
   margin:0 0 0 -6px;
-
 }
 
 #header {
