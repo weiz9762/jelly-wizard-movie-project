@@ -109,7 +109,10 @@ p2 {
     float: right;
 }
 
-
+.vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+}
 /*sec 4*/
 .banner {
     border: 5px #FFFD8B ;
