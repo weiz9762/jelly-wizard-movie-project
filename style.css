@@ -27,20 +27,20 @@ h1{ /*Jelly Wizard*/
 }
 
 .jl{/*red juggle bean*/
-    max-height: 70%;
-    max-width: 70%;
+    max-height: 60%;
+    max-width: 60%;
     position:absolute;
-    top: 10%;
-    left:13%;
+    top: 8%;
+    left:10%;
 }
 
 
 .wz{/*blue juggle bean*/
-    max-height: 70%;
-    max-width: 70%;
+    max-height: 60%;
+    max-width: 60%;
     position:absolute;
     top:30%;
-    right:13%;
+    right:10%;
     
 }
 
@@ -156,8 +156,8 @@ p2 {
     background-color:#b3b3ff;
 }
 .search {
-    width:233px;
-    margin:10% auto;
+    width:255px;
+    margin: auto;
 }
 
 .links {
@@ -180,14 +180,23 @@ p2 {
 }
 
 
-#header {
-  background-image: url(images/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 100%;
-  padding-top: 28.56%;
-  display:block;
-  position:absolute;
-  margin:0 0 0 -6px;
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: black;
 }
 
