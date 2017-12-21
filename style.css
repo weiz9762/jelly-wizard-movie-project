@@ -45,9 +45,18 @@ h1{ /*Jelly Wizard*/
 }
 
 /*start of sec 2*/
+.video {
+    background-color:#FDDDE6;
+    padding:20px;
+}
+
+#video {
+    display: block;
+    margin: 0 auto;
+}
 
 .summary {/*second div*/
-    background-color:#D7F5FD;
+    background-color:#ACE1AF;
     padding:20px;
 }
 
