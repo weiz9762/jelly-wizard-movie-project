@@ -1,85 +1,149 @@
 <!DOCTYPE html>
 <html>
-  <!--Dragon - Goofy-->
-  <!--Picture Credit: https://cdn.pixabay.com/photo/2016/04/01/09/29/cartoon-1299393_960_720.png-->
-  <!--Giraffe - Pluto-->
-  <!--Picture Credit: https://pixabay.com/get/eb35b30a20fc093ecd1f4201e74a4197e56ae3d018b2154997f1c87a/giraffe-2025888.png-->
-  <!--Wizard - Squid-->
-  <!--Picture Credit: https://cdn.pixabay.com/photo/2016/06/13/14/57/wizard-1454385_960_720.png-->
-  <!--Juggle Beans-->
-  <!--Picture Credit: https://cdn.pixabay.com/photo/2014/03/24/13/42/bean-294077_960_720.png-->
-  <!--Picture Credit: http://moziru.com/images/bean-clipart-animated-5.png-->
-  <head>
-    <meta charset="UTF-8">
-    <title>Jelly Wizard</title>
-    <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Risque" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css">
-  </head>
+<!--Dragon - Goofy-->
+<!--Picture Credit: https://cdn.pixabay.com/photo/2016/04/01/09/29/cartoon-1299393_960_720.png-->
+<!--Giraffe - Pluto-->
+<!--Picture Credit: https://pixabay.com/get/eb35b30a20fc093ecd1f4201e74a4197e56ae3d018b2154997f1c87a/giraffe-2025888.png-->
+<!--Wizard - Squid-->
+<!--Picture Credit: https://cdn.pixabay.com/photo/2016/06/13/14/57/wizard-1454385_960_720.png-->
+<!--Juggle Beans-->
+<!--Picture Credit: https://cdn.pixabay.com/photo/2014/03/24/13/42/bean-294077_960_720.png-->
+<!--Picture Credit: http://moziru.com/images/bean-clipart-animated-5.png-->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jelly Wizard</title>
+  <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Risque" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <style type="text/css">
   
-  <body>
+    .summary {
+      /*image as a background*/
+      background: url(images/background.jpg);
+      background-size: cover;
+    }
+
+    .video {
+      /*background color change from top to bottom*/
+      background: linear-gradient(red, pink);
+    }
+
+    .title h1 {
+      color: white;
+      text-shadow: -10px 0 black; /*-10px: shadow shown on the left*/
+    }
+
+    .title {
+      background: linear-gradient(to right, orange, yellow); /*color change from right to left*/
+    }
+
+    #character {
+      transition: font-size 2s; /*changes the font-size for 2sec*/
+    }
+
+    #character:hover {
+      /*increases font-size when mouse touches*/
+      font-size: 8vw;
+    }
+
+    .giraffe,
+    .wizard,
+    .dragon {
+      /*images shows from transparent to visible*/
+      animation: characters 5s ease 2s infinite;
+      /*5s: animation time, ease: slow start, fast, end slow motion, 2s: delay for the next animation, infinite: play forever*/
+    }
+
+    @keyframes characters {
+      0% {
+        opacity: 0;
+        /*transparent*/
+      }
+      25% {
+        opacity: 0.25;
+      }
+      50% {
+        opacity: 0.50;
+      }
+      75% {
+        opacity: 0.75;
+      }
+      100% {
+        opacity: 1;
+        /*visible*/
+      }
+    }
     
-    
-    <div class="title">
-      <h1>Jelly <br> Wizard</h1>
-      <a href="https://github.com/JENNIFERL4209">
+    .wz:hover,
+    .jl:hover {
+      transform: rotateY(180deg); /*flips the jellies over when mouse touches*
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="title">
+    <h1>Jelly <br> Wizard</h1>
+    <a href="https://github.com/JENNIFERL4209">
         <img src="images/r-jugglebean.png" alt="jl's github" class= "jl">
         
       </a>
-      <a href="https://github.com/weiz9762">
+    <a href="https://github.com/weiz9762">
         <img src="images/b-jugglebean.png" alt="wei's github" class="wz">
         
       </a>
-        <div class="company">
-          <p style="font-family:Montez,cursive;">Walk Disney &copy;</p>
-        </div>
+    <div class="company">
+      <p style="font-family:Montez,cursive;">Walk Disney &copy;</p>
     </div>
-    
-    <div class="video">
-      <h3>Trailer</h3>
-      <video width="80%" height="80%" id= "video" controls>
+  </div>
+
+  <div class="video">
+    <h3>Trailer</h3>
+    <video width="80%" height="80%" id="video" controls>
       <source src="jwvideo.mp4" type="video/mp4">
       </video>
-    </div>
-    
-    <div class="summary">
-      <h3>"Jelly Swag Wizard Swag"</h3>
-      <p1>ON AIR INTERNATIONALLY</p1>
-      <p1>DEC 30, 2017</p1>
-      <p2>In this planet name Qupiter there are many wizards. Out of them, there is a special one and his name is Squid. He was out in the woods practicing his magic and he found some jellies in the grass. He took two and he ate the jellies. He didn't know where the jellies came from and he didn't know what will happen to him. And he... <br> In this movie, you will find out what happen to the wizard after he ate the jellies! </p2>
-    </div>
-    
-    <div class="character">
-      <h2 class="#character">CHARACTERS</h2>
-      <img src="images/giraffe.png" alt="Giraffe" class="giraffe">
-      
-      <img src="images/wizard.png" alt="Wizard" class="wizard">
-      
-      <img src="images/dragon.png" alt="Dragon" class="dragon">
+  </div>
+
+  <div class="summary">
+    <h3>"Jelly Swag Wizard Swag"</h3>
+    <p1>ON AIR INTERNATIONALLY</p1>
+    <p1>DEC 30, 2017</p1>
+    <p2>In this planet name Qupiter there are many wizards. Out of them, there is a special one and his name is Squid. He was out in the woods practicing his magic and he found some jellies in the grass. He took two and he ate the jellies. He didn't know
+      where the jellies came from and he didn't know what will happen to him. And he... <br> In this movie, you will find out what happen to the wizard after he ate the jellies! </p2>
+
+  </div>
+
+  <div class="character">
+    <h2 id="character">CHARACTERS</h2>
+    <img src="images/giraffe.png" alt="Giraffe" class="giraffe">
+    <img src="images/wizard.png" alt="Wizard" class="wizard">
+    <img src="images/dragon.png" alt="Dragon" class="dragon">
+    <br>
+    <p class="left">Pluto</p>
+    <p class="middle">Squid</p>
+    <p class="right">Goofy</p>
+  </div>
+
+  <div class="bottom">
+    <div class="search">
+      <input type="text" name="searchbar" placeholder="Search" id="search-bar">
+      <input id="search-icon" type="submit" value="Search">
       <br>
-      <p class = "left">Pluto</p>
-      <p class = "middle">Squid</p>
-      <p class = "right">Goofy</p>
+      <a href="sequel.html">Watch the Jelly Wizard Sequel Now</a>
+      <p>&copy; Walk Disney. All rights reserved </p>
     </div>
-    
-    <div class = "bottom">
-      <div class="search">
-        <input type="text" name="searchbar" placeholder="Search" id="search-bar">
-        <input id="search-icon" type="submit" value="Search">
-        <br>
-        <a href="sequel.html">Watch the Jelly Wizard Sequel Now</a>
-        <p>&copy; Walk Disney. All rights reserved </p>
-      </div>
-    </div>
-    
-    <div class="banner">
-      <span class=info>Join the Jelly Squad</span> <br> Purchase Ticket Now
-    </div>
-  
-  
-  
-  </body>
+  </div>
+
+  <div class="banner">
+    <span class=info>Join the Jelly Squad</span> <br> Purchase Ticket Now
+  </div>
+
+</body>
+
 </html>
