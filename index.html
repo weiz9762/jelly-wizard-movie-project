@@ -20,7 +20,6 @@
   <link href="https://fonts.googleapis.com/css?family=Risque" rel="stylesheet">
   <link rel="stylesheet" href="style.css" type="text/css">
   <style type="text/css">
-  
     .summary {
       /*image as a background*/
       background: url(images/background.jpg);
@@ -34,15 +33,18 @@
 
     .title h1 {
       color: white;
-      text-shadow: -10px 0 black; /*-10px: shadow shown on the left*/
+      text-shadow: -10px 0 black;
+      /*shadow shown on the left*/
     }
 
     .title {
-      background: linear-gradient(to right, orange, yellow); /*color change from right to left*/
+      background: linear-gradient(to right, orange, yellow);
+      /*color change from right to left*/
     }
 
     #character {
-      transition: font-size 2s; /*changes the font-size for 2sec*/
+      transition: font-size 2s;
+      /*changes the font-size for 2sec*/
     }
 
     #character:hover {
@@ -50,12 +52,25 @@
       font-size: 8vw;
     }
 
-    .giraffe,
-    .wizard,
-    .dragon {
+    .giraffe {
       /*images shows from transparent to visible*/
-      animation: characters 5s ease 2s infinite;
-      /*5s: animation time, ease: slow start, fast, end slow motion, 2s: delay for the next animation, infinite: play forever*/
+      animation: characters 6s ease 3s infinite;
+      /*animation time, ease: slow start, fast, end slow motion, delay for the next animation, play forever*/
+    }
+
+    .wizard {
+      animation: characters 7s ease 4s infinite;
+    }
+
+    .dragon {
+      animation: characters 8s ease 5s infinite;
+    }
+
+    .giraffe:hover,
+    .wizard:hover,
+    .dragon:hover {
+      transform: rotateY(180deg);
+      /*flips the characters over when mouse touches*/
     }
 
     @keyframes characters {
@@ -77,12 +92,12 @@
         /*visible*/
       }
     }
-    
+
     .wz:hover,
     .jl:hover {
-      transform: rotateY(180deg); /*flips the jellies over when mouse touches*
+      transform: rotateY(180deg);
+      /*flips the jellies over when mouse touches*
     }
-
   </style>
 </head>
 
